@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Countdown -- Fatomi</title>
+</head>
+<body>
+    <div class="countdown-container">
+        <h1 id="countdown">Countdown Timer</h1>
+        <div class="timer">
+            <div class="item"> Days <span id="days">00</span></div> <div class="column">:</div>
+            <div class="item"> Hours <span id="hours">00</span></div><div class="column">:</div>
+            <div class="item"> Minutes <span id="minutes">00</span></div><div class="column">:</div>
+            <div class="item"> Seconds <span id="seconds">00</span></div>
+        </div>
+        <div class="btn_box">
+            <button onclick="enterTargetDate()">Enter Target Date</button>
+            <button onclick="stopCountdown()">Stop Countdown</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
